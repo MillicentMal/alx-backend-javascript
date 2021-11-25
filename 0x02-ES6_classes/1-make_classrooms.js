@@ -1,8 +1,9 @@
 import ClassRoom from "./0-classroom.js";
 
 function initializeRooms() {
-  console.log(ClassRoom(19));
-  console.log(ClassRoom(20));
-  console.log(ClassRoom(34));
+ 
+  x, y, z = ClassRoom(19), Classroom(20), Classroom(34);
+  classes =[x, y, z];
+  return classes;
 }
   
