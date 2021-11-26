@@ -1,5 +1,6 @@
 export default class HolbertonCourse {
-  constructor(name, length, students) {
+  constructor(name, length, students)
+ {
   set setName(name)  {
     
       if (typeof name === 'string') {
