@@ -1,7 +1,7 @@
 export default class HolbertonCourse {
   constructor(name, length, students) {
-  Object.defineProperty(HolbertonCourse , "setName",  {
-    set : function () {
+  set setName(name)  {
+    
       if (typeof name === 'string') {
         this._name = name;
       }
@@ -10,13 +10,12 @@ export default class HolbertonCourse {
       }
     }
   });
-   Object.defineProperty(HolbertonCourse, "getName", {
-   get : function () {
-        return this._name;
+get getName {
+   return this._name;
     }
 });
- Object.defineProperty(HolbertonCourse , "setLength",  {
-    set : function () {
+ set setLength  {
+    
       if (typeof length === 'number') {
         this._length = length;
       }
@@ -25,13 +24,13 @@ export default class HolbertonCourse {
       }
     }
   });
-   Object.defineProperty(HolbertonCourse, "getLength", {
-   get : function () {
+ 
+   get getLength {
         return this._length;
     }
 });
-     Object.defineProperty(HolbertonCourse , "setStudents",  {
-    set : function () {
+set setStudents {
+    
     if (Array.isArray(students) && student.every(isString)) {
       this._students = students
       }
@@ -40,8 +39,7 @@ export default class HolbertonCourse {
       }
     }
   });
-   Object.defineProperty(HolbertonCourse, "getStudents", {
-   get : function () {
+   get getStudents {
         return this._students;
     }
 });
