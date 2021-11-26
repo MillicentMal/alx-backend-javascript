@@ -1,9 +1,6 @@
-import listOfStudents from "./9-hoisting.js";
+import Airport from "./7-airport.js";
 
-console.log(listOfStudents);
+const airportSF = new Airport('San Francisco Airport', 'SFO');
+console.log(airportSF);
+console.log(airportSF.toString());
 
-const listPrinted = listOfStudents.map(
-    student => student.fullStudentDescription
-);
-
-console.log(listPrinted)
