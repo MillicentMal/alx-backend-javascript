@@ -1,4 +1,4 @@
-export default class HolbertonClass {
+class HolbertonClass {
   constructor(year, location) {
     this._year = year;
     this._location = location;
@@ -13,7 +13,7 @@ export default class HolbertonClass {
   }
 }
 
-export default class StudentHolberton {
+class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) {
     this._firstName = firstName;
     this._lastName = lastName;
@@ -28,9 +28,9 @@ export default class StudentHolberton {
     return this.holbertonClass;
   }
 
-//   get fullStudentDescription() {
-//     return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`;
-//   }
+  get fullStudentDescription() {
+    return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`;
+  }
 }
 
 const class2019 = new HolbertonClass(2019, 'San Francisco');
