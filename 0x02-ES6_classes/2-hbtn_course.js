@@ -38,7 +38,7 @@ set length(Newlength)  {
 
 set students(NewStudents) {
     
-    if (!Array.isArray(NewStudents) && student.every(!isString)) {
+    if (!Array.isArray(NewStudents) && Newstudents.some(typeof student !== 'string' )) {
         throw new TypeError('Students must be an array of strings')
     }
       this._students = Newstudents;
