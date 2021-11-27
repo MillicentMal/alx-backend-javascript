@@ -5,9 +5,9 @@ export default class Car {
     this._color = color;
   }
 
-   cloneCar() {
-     const carClone = this.constructor[Symbol.species] || this.constructor;
+  cloneCar() {
+    const carClone = this.constructor[Symbol.species] || this.constructor;
     const carObj = new carClone();
-     return carObj;
-   }
+    return carObj;
+  }
 }
