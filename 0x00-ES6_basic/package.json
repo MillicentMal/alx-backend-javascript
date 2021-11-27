@@ -18,6 +18,9 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
+    "acorn": "^8.6.0",
+    "babel": "^6.23.0",
+    "babel-node": "0.0.1-security",
     "scripts": "^0.1.0"
   }
 }
