@@ -4,10 +4,10 @@ export default class Car {
     this._motor = motor;
     this._color = color;
   }
-  cloneCar() {
-     const Carclone = this.constructor[Symbol.species] || this.constructor;
-    const carObj = new Carclone();
-     return carObj;
-   }
 
+  cloneCar() {
+    const Carclone = this.constructor[Symbol.species] || this.constructor;
+    const carObj = new Carclone();
+    return carObj;
+  }
 }
