@@ -6,6 +6,6 @@ export default class EVCar extends Car {
     this._range = range;
   }
 
-static get carClone() {
+carClone() {
     return Car;
 }
