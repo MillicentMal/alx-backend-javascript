@@ -1,3 +1,5 @@
 /* eslint-disable */
-new Promise = export function getResponseFromAPI() => {}
-
+export function getResponseFromAPI(){
+	const myPromise = new Promise(()=>{})
+	return myPromise;
+}
