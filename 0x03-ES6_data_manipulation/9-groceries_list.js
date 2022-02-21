@@ -1,6 +1,6 @@
 export default function groceriesList(){
 	let groceries = new Map();
-	groceries('Apples', 10);
+	groceries.set('Apples', 10);
 	groceries.set('Tomatoes', 10);
 	groceries.set('Pasta', 1);
 	groceries.set('Rice', 1);
@@ -8,3 +8,4 @@ export default function groceriesList(){
 	return groceries;
 }
 
+console.log(groceriesList());
