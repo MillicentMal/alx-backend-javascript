@@ -11,5 +11,4 @@ export default function cleanSet(_set, startString) {
 	return matchedStrings.join('-');
 	
 	}
-console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), 'bon'));
-console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), ''));
+
